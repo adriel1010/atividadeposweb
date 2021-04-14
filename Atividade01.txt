@@ -1,0 +1,20 @@
+ET1) Descreva com suas palavras o funcionamento dos protocolos HTTP e HTTPS. Explique quais são as principais diferenças entre os dois protocolos.
+
+R = A grande principal diferença entre o http e https, é que o http não faz a cliptrografia dos dados, isso é, de certa forma, deixa os dados do usário "esposto", já com o https, é feito uma cliptrografia dos dados antes dos pacotes serem enviados pela rede. 
+Em outras palavras, o http um protocolo baseado em texto, sendo assim, os textos podem ser interceptados ou alterados no meio do caminho. 
+
+
+ET2) Descreva com suas palavras o que é Representational State Transfer (REST). 
+
+R = Rest é o é o nome dado a requisições que estão ligadas principalmente a comunicação entre aplicações, ou seja, uma aplicação faz uma requisição rest para outra, afim de transferir ou receber um determinado tipo de informação.
+O exemplo mais comum entre nos é o http, que é o mais conhecido para transferencia de dados, porém existe também varios outros tipos, como por exemplo: post, put, get, delete
+
+
+ET3) Escolha um dos ataques catalogados pela OWASP Foundation (https://owasp.org/www-community/attacks/). Pesquise sobre o ataque escolhido e sobre quais medidas devem ser tomadas para proteger um sistema de tal ataque.
+
+Escolhido: Ataque de força bruta.
+
+Um dos mais conhecidos ataques, em rápidas palavras consiste em tentar diversas combinações de senhas afim de ter o acesso aos dados das vítimas.
+O nome força bruta, se dá as diveras tentativas de tentar descobrir a senha da vítima, porém nada feito de forma manual, quem faz esse tipo de ataque, conta com o uso de softwares, hardware e também com algoritmos e dicionário de palavras. 
+A utilização do hardware se da pois, quanto maior potência tem a máquina do ataquante, maior será o número de combinações que a máquina conseguirá processar por segundo, agilizando assim, o tempo para que o objetivo seja alcançado. 
+Outro pronto a se destacar é que não existe apenas um tipo de ataque de força bruta, existe um conhecido como ataque de dicionário, que a forma de trabalho se da pelas combinações feitas atravéz de um dicionário, outro tipo de ataque é o conhecido de "credential stuffing", cujo para a sua execução, é utilizado combinações de nomes e senhas, que foram filtrados em brechas do sistema.
